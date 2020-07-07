@@ -4,7 +4,7 @@ A random team run generator for Fire Emblem Three Houses. Running this program w
 
 ## Built With
 
-* [Python](https://www.python.org/)
+* Python
 * Potentially Tkinter for GUI
 
 ## Installation Instructions
