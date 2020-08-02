@@ -5,11 +5,16 @@ A random team run generator for Fire Emblem Three Houses. Running this program w
 ## Built With
 
 * Python
-* Tkinter for GUI
+* Tkinter for GUI?
 
 ## Installation Instructions
 
-To be added.
+**Ignore GUI.py for now**
+1. Make sure python is installed on your machine.
+1. Download files and save to location of choice.
+1. Open up your choice of terminal.
+1. Change to directory where files are located. 
+1. Type in "Python RandomFE3H" and follow the prompts.
 
 ## Future Development
 
