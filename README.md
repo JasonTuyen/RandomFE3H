@@ -14,7 +14,7 @@ A random team run generator for Fire Emblem Three Houses. Running this program w
 1. Open up your choice of terminal.
 1. Change to directory where files are located. 
 1. Type in "Python RandomFE3H" and follow the prompts.
-1. **All files aside from GUI.py are necessary to run program.**
+1. **All files aside from GUI.py are currently necessary to run program.**
 
 ## Future Development Plans
 
