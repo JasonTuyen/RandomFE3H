@@ -61,7 +61,6 @@ reader = csv.reader(file)
 chosenClass = random.choice(list(reader))
 file.close()
 if str(chosenClass[5]) == "" and (mainCharGender == chosenClass[4] or chosenClass[4] == ""): 
-            print("one",mainCharGender,chosenClass[4],chosenClass[5])
             print(mainChar[main],(chosenClass[0]),(chosenClass[1]),(chosenClass[2]),(chosenClass[3]))
 else:
     while str(chosenClass[5]) != "" or (mainCharGender != chosenClass[4] and chosenClass[4] != ""):
@@ -69,7 +68,6 @@ else:
         reader = csv.reader(file)
         chosenClass = random.choice(list(reader))
         file.close()
-    print("two",mainCharGender,chosenClass[4],chosenClass[5])
     print(mainChar[main],(chosenClass[0]),(chosenClass[1]),(chosenClass[2]),(chosenClass[3]))
 
 file = open("FE3H_classes.csv", 'r')
@@ -77,7 +75,6 @@ reader = csv.reader(file)
 chosenClass = random.choice(list(reader))
 file.close()
 if (str(chosenClass[5]) == str(lordChar[lord]) or str(chosenClass[5]) == "") and (lordCharGender == chosenClass[4] or chosenClass[4] == ""): 
-        print("one",lordCharGender,chosenClass[4],chosenClass[5])
         print(lordChar[lord],(chosenClass[0]),(chosenClass[1]),(chosenClass[2]),(chosenClass[3]),(chosenClass[5]))
 else:
     while (str(chosenClass[5]) != str(lordChar[lord]) and str(chosenClass[5]) != "") or (lordCharGender != chosenClass[4] and chosenClass[4] != ""):
@@ -85,7 +82,6 @@ else:
         reader = csv.reader(file)
         chosenClass = random.choice(list(reader))
         file.close()
-    print("two",lordCharGender,chosenClass[4],chosenClass[5])
     print(lordChar[lord],(chosenClass[0]),(chosenClass[1]),(chosenClass[2]),(chosenClass[3]),(chosenClass[5]))
 
 while len(route) < 10:
@@ -107,7 +103,6 @@ while len(route) < 10:
             break
 
         if str(chosenClass[5]) == "" and (chosenChar[1] == chosenClass[4] or chosenClass[4] == ""): 
-            print("one",chosenChar[1],chosenClass[4],chosenClass[5])
             print(chosenChar[0],(chosenClass[0]),(chosenClass[1]),(chosenClass[2]),(chosenClass[3]))
 
         else:
@@ -117,7 +112,6 @@ while len(route) < 10:
                 reader = csv.reader(file)
                 chosenClass = random.choice(list(reader))
                 file.close()
-            print("two",chosenChar[1],chosenClass[4],chosenClass[5])
             print(chosenChar[0],(chosenClass[0]),(chosenClass[1]),(chosenClass[2]),(chosenClass[3]))
         
         route.append(chosenChar[0])
